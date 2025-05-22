@@ -84,3 +84,24 @@ form button{
     font-size: 1rem;
     cursor: pointer;
 }
+.footer-bottom {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3f;
+    padding: 10px 10rem;
+    color: white;
+    font-size: 19px;
+    left:0;
+    right:0
+}
+
+.footer-text {
+    color:white
+}
+
+.github-logo {
+    font-size: 2.5rem;
+}
