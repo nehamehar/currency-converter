@@ -93,17 +93,20 @@ form button{
     justify-content: space-between;
     align-items: center;
     background-color: #232f3f;
-    padding: 10px 10rem;
+    padding: 11px 10rem;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     left:0;
     right:0
 }
 
 .footer-text {
-    color:white
+    color:gray
 }
 
 .github-logo {
-    font-size: 2.5rem;
+    font-size: 4rem;
+}
+.text-decoration-none{
+    text-decoration: none;
 }
