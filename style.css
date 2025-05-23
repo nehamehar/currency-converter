@@ -5,18 +5,19 @@
 
 body {
     display: flex;
-    background-color:rgb(117, 105, 119);
+    background-color:rgb(67, 10, 212);
     justify-content: center;
     align-items: center;
     min-height: 40rem;
 }
 
 .container{
-    background-color: rgba(235, 184, 122, 0.808);
+    background-color: rgb(239, 238, 242);
     padding: 1rem;
     border-radius: 1rem;
     min-height: 35vh;
     min-width: 45vh;
+    border: 3px solid rgba(23, 15, 15, 1);
 }
 
 form{
@@ -30,7 +31,7 @@ form select,button,input{
 }
 
 form input{
-    border: 1px solid rgba(128, 128, 128, 0.997);
+    border: 1px solid rgba(206, 216, 225, 0.57);
     font-size: 1rem;
     height: 2.5rem;
     padding-left: 0.7rem;
@@ -54,7 +55,7 @@ form input{
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
-    border: 1px solid rgba(128, 128, 128, 0.997);
+    border: 0px solid rgba(23, 15, 15, 1);
     cursor: pointer;
 }
 
@@ -66,7 +67,7 @@ form input{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(133, 93, 133);
+    background-color: hsla(90, 5.00%, 76.50%, 0.94);
     border-radius: 0.5rem;
     height: 1px;
     padding-top: 14px;
@@ -80,9 +81,10 @@ form input{
 form button{
     background-color: purple;
     height: 3rem;
-    color: azure;
+    color: black;
     font-size: 1rem;
     cursor: pointer;
+
 }
 .footer-bottom {
     position: fixed;
