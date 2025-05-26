@@ -5,7 +5,7 @@
 
 body {
     display: flex;
-    background-color:rgb(67, 10, 212);
+    background-color:#7F8CAA;
     justify-content: center;
     align-items: center;
     min-height: 40rem;
@@ -95,16 +95,17 @@ form button{
     align-items: center;
     background-color: #232f3f;
     padding: 10px 90px;
-    color: white;
+    color: gray;
     font-size: 14px;
     left:0;
     right:0;
-    font-size:0.9rem
+    font-size:1rem
     
 }
 
 .footer-text {
-    color:gray
+    color:gray;
+    font-text:1.2rem
 }
 
 .github-logo {
@@ -112,5 +113,5 @@ form button{
 }
 .text-decoration-none{
     text-decoration: none;
-    font-size:1rem
+    font-size:1.1rem
 }
