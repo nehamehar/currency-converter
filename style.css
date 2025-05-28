@@ -11,13 +11,53 @@ body {
     min-height: 40rem;
 }
 
+@media (max-width: 480px){
+    body{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6px;
+    margin-top:4px;
+    padding-right:3rem;
+    padding-left:3rem;
+    margin-left:1.6px;
+    margin-right:1.6px;
+    }
+}
+
+
 .container{
-    background-color: rgb(239, 238, 242);
-    padding: 1rem;
+   background-color: rgb(239, 238, 242);
+    padding: 1.6rem;
+    width:30px;
     border-radius: 1rem;
     min-height: 35vh;
     min-width: 45vh;
     border: 3px solid rgba(23, 15, 15, 1);
+}
+
+@media(max-width: 480px){
+    .container{
+    padding: 1px 0px;
+    margin-left:0.5px;
+    margin-right:0.5px;
+    padding-left:0.5rem;
+    padding-right:1rem;
+    width:0.2px;
+    }
+}
+@media (max-width: 349px){
+    body{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6px;
+    margin-top:4px;
+    padding-right:3rem;
+    padding-left:6.8rem;
+    margin-left:1.6px;
+    margin-right:1.6px;
+    }
 }
 
 form{
@@ -67,14 +107,12 @@ form input{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsla(90, 5.00%, 76.50%, 0.94);
-    border-radius: 0.5rem;
     height: 1px;
     padding-top: 14px;
     padding-bottom: 14px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    outline: solid rgb(57, 56, 56);
+//    outline: solid rgb(57, 56, 56);
 
 }
 
@@ -90,28 +128,194 @@ form button{
     position: fixed;
     bottom: 0;
     display: flex;
-    justify-content: space-between;; 
-    gap: 10rem;
+    justify-content: space-between;
     align-items: center;
     background-color: #232f3f;
-    padding: 10px 90px;
+    padding: 20px 90px;
     color: gray;
     font-size: 14px;
     left:0;
     right:0;
     font-size:1rem;
+    font-family: 'Arial', sans-serif;
 
+}
+.output{
+    background-color: hsla(90, 5.00%, 76.50%, 0.94);
 }
 
 .footer-text {
     color:gray;
-    font-text:1.2rem;
+    font-size:1.1rem;
+    margin-left:10rem;
 }
+.fab.fa-github{
 
-.github-logo {
-    font-size: 4rem;
+    color: black; 
+    color: aliceblue; 
+    font-size: 2rem; 
+    margin-right: 11rem;//web
 }
 .text-decoration-none{
     text-decoration: none;
-    font-size:1.1rem
+    font-size:1.2rem;
+}
+@media(max-width: 1280px){
+.footer-text {
+    color:gray;
+    font-size:1.1rem;
+    margin-left:10rem;
+}
+.fab.fa-github{
+
+    color: black; 
+    color: aliceblue; 
+    font-size: 2rem; 
+    margin-right: 15px;//web
+}
+.text-decoration-none{
+    text-decoration: none;
+    font-size:1.2rem;
+}
+
+}
+
+
+@media(max-width: 920px){
+    .footer-text {
+    color:gray;
+    font-size:1.1rem;
+    margin-left:10rem;
+}
+.fab.fa-github{
+
+    color: black; 
+    color: aliceblue; 
+    font-size: 2rem; 
+    margin-right: 15px;//web
+}
+.text-decoration-none{
+    text-decoration: none;
+    font-size:1.2rem;
+}
+}
+
+@media (max-width: 480px) {
+  .footer-bottom {
+     display:flex;
+        justify-items:center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 13px 10px;
+    background-color: #232f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+}
+
+@media (max-width: 480px){
+    .footer-text {
+    color:gray;
+    font-size:1rem;
+    margin-left:0.8rem;
+}
+.fab.fa-github{
+    color: black; 
+    color: aliceblue; 
+    font-size: 1.5rem; 
+    margin-right: 5rem;
+}
+.text-decoration-none{
+    text-decoration: none;
+    font-size:1rem;
+}
+
+
+}
+
+@media (max-width: 764px) and (min-width: 768px){
+    .footer-text {
+    color:gray;
+    font-size:1rem;
+    margin-left:0.8rem;
+}
+.fab.fa-github{
+    color: black; 
+    color: aliceblue; 
+    font-size: 1.5rem; 
+    margin-right: 5rem;
+}
+.text-decoration-none{
+    text-decoration: none;
+    font-size:1rem;
+}
+}
+
+@media (max-width: 846px) {
+    .footer-bottom {
+     display:flex;
+    justify-items:center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 10px;
+    background-color: #232f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+}
+@media (min-width:492) and (max-width:644px){
+    .footer-bottom {
+     display:flex;
+    justify-items:center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 7px 10px;
+    background-color: #232f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+}
+
+@media (max-width:540) {
+
+    .footer-bottom {
+     display:flex;
+    justify-items:center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5px 2px;
+    background-color: #232f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .footer-text {
+    color:gray;
+    font-size:1rem;
+}
+.fab.fa-github{
+    color: black;  
+    font-size: 1.5rem; 
+}
+.text-decoration-none{
+    text-decoration: none;
+    font-size:1rem;
+}
 }
