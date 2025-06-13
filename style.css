@@ -34,7 +34,7 @@ body {
 
 
 .container{
-   background-color: rgb(239, 238, 242);
+   background-color: #C8CDDA;
     padding: 1.6rem;
     width:30px;
     border-radius: 1rem;
@@ -84,7 +84,7 @@ form select,button,input{
 }
 
 form input{
-    border: 1px solid rgba(206, 216, 225, 0.57);
+    border: 1px solid #919CB6;
     font-size: 1rem;
     height: 2.5rem;
     padding-left: 0.7rem;
@@ -143,7 +143,7 @@ form button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #232f3f;
+    background-color: #333A4C;
     padding: 20px 90px;
     color: gray;
     font-size: 14px;
@@ -154,7 +154,7 @@ form button{
 
 }
 .output{
-    background-color: hsla(90, 5.00%, 76.50%, 0.94);
+    background-color: #7F8CAA;
 }
 
 .footer-text {
